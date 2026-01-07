@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.button {
+    background-color: #fd6e0a;
+    color: white;
+    border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-heading {
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading h2 {
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+.section-heading p {
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 30px;
+    color: #757575;
+}
+header {
+    /*background-color: #fff8f3;*/
+    background: url(../hero-dev-portfolio-resources/images/developer.png), url(../hero-dev-portfolio-resources/images/header_bg.png), #fff8f3;
+    background-repeat: no-repeat;
+    background-position: top  left,bottom right;
+    padding-top: 50px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.logo h2 {
+    font-size: 45px;
+    font-weight: 900;
+}
+
+.color-orange {
+    color: #fd6e0a;
+}
+nav .menu {
+    list-style: none;
+    display: flex;
+    gap: 51px;
+    align-items: center;
+}
+nav .menu li a {
+    text-decoration: none;
+    color: #474747;
+    font-size: 20px;
+    font-weight: 600;
+}
+#banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 47px 38px 0 230px;
+}
+#banner .banner-content {
+    max-width: 585px;
+}
+#banner .banner-content h2 {
+    color: #474747;
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+#banner .banner-content h1 {
+    color: #181818;
+    font-size: 85px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#banner .banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+#banner .banner-image img {
+    max-width: 585px;
+    vertical-align: middle;
+}
+#about {
+    padding-top: 130px;
+}
+#about .about-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fff8f3;
+    padding: 131px 156px;
+}
+#about .about-container .about-info {
+    display: flex;
+    justify-content: space-around;
+}
