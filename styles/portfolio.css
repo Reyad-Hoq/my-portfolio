@@ -35,7 +35,7 @@ body {
 }
 header {
     /*background-color: #fff8f3;*/
-    background: url(/images/developer.png), url(/images/header_bg.png), #fff8f3;
+    background: url(images/developer.png), url(images/header_bg.png), #fff8f3;
     background-repeat: no-repeat;
     background-position: top  left,bottom right;
     padding-top: 50px;
