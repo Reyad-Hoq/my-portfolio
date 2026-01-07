@@ -33,7 +33,7 @@ body {
 }
 header {
     /*background-color: #fff8f3;*/
-    background: url(../hero-dev-portfolio-resources/images/developer.png), url(../hero-dev-portfolio-resources/images/header_bg.png), #fff8f3;
+    background: url(/images/developer.png), url(/images/header_bg.png), #fff8f3;
     background-repeat: no-repeat;
     background-position: top  left,bottom right;
     padding-top: 50px;
@@ -98,7 +98,7 @@ nav .menu li a {
     max-width: 585px;
     vertical-align: middle;
 }
-#about {
+#about, #skills, #resume {
     padding-top: 130px;
 }
 #about .about-container {
@@ -112,9 +112,6 @@ nav .menu li a {
 #about .about-container .about-info {
     display: flex;
     justify-content: space-around;
-}
-#skills {
-    padding-top: 130px;
 }
 #skills .skills-container {
     width: 59%;
@@ -143,4 +140,19 @@ nav .menu li a {
     font-size: 16px;
     color: #757575;
     line-height: 28px;
+}
+#resume .resume-container {
+    width: 59%;
+    max-width: 1140px;
+    margin: 113px auto 0;
+    display: flex;
+    gap: 24px;
+}
+.resume-container .section-title {
+    font-size: 30px;
+    color: #474747;
+}
+.resume-card {
+    max-width: 511px;
+    margin-right: 47px;
 }
