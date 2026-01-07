@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 71%;
+    width: 59%;
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
@@ -112,4 +112,35 @@ nav .menu li a {
 #about .about-container .about-info {
     display: flex;
     justify-content: space-around;
+}
+#skills {
+    padding-top: 130px;
+}
+#skills .skills-container {
+    width: 59%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+#skills .skills-container .skills-info {
+    display: flex;
+    gap: 24px;
+}
+.skills-info .skills-card {
+    padding: 30px;
+    max-width: 267px;
+    box-shadow: 0 6px 50px 0 rgb(0 0 0 / 40%);
+}
+.skills-card img {
+    max-width: 44px;
+    margin-bottom: 30px;
+}
+.skills-card h3 {
+    font-size: 20px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.skills-card p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
 }
