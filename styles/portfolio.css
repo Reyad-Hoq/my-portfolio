@@ -26,7 +26,7 @@ body {
     background-color: #fff8f3;
     color: #fd6e0a;
     border: 2px solid #fd6e0a;
-    box-shadow: 8px 8px 12px 0 #fd6e0a;
+    box-shadow: 8px 8px 25px 0 #fd6e0a;
 }
 .btn-contact {
     background-color: #fff8f3;
@@ -198,5 +198,43 @@ nav .menu li a {
 .resume-card .card-text {
     font-size: 16px;
     line-height: 28px;
+    color: #757575;
+}
+footer {
+    background-color: #fff8f3;
+    margin-top: 113px;
+    padding: 130px 0;
+}
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social p {
+    color: #474747;
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.social .icons a {
+    margin-right: 24px;
+}
+form input[type="text"],
+form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
     color: #757575;
 }
