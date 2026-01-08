@@ -1,9 +1,12 @@
-* {
+* { 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: 100vh;
 }
 .text-center {
     text-align: center;
@@ -12,6 +15,23 @@ body {
     background-color: #fd6e0a;
     color: white;
     border: none;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+.button:hover {
+    background-color: #fff8f3;
+    color: #fd6e0a;
+    border: 2px solid #fd6e0a;
+    box-shadow: 8px 8px 12px 0 #fd6e0a;
+}
+.btn-contact {
+    background-color: #fff8f3;
+    color: #fd6e0a;
+    border: 2px solid #fd6e0a;
     padding: 18px 35px;
     font-size: 20px;
     font-weight: bold;
@@ -37,14 +57,14 @@ header {
     /*background-color: #fff8f3;*/
     background: url(/images/developer.png), url(/images/header_bg.png), #fff8f3;
     background-repeat: no-repeat;
-    background-position: top  left,bottom right;
+    background-position: 23px 38px ,bottom right;
     padding-top: 50px;
 }
 .container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 59%;
+    width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
@@ -106,7 +126,7 @@ nav .menu li a {
     padding-top: 130px;
 }
 #about .about-container {
-    width: 59%;
+    width: 71%;
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
@@ -118,7 +138,7 @@ nav .menu li a {
     justify-content: space-around;
 }
 #skills .skills-container {
-    width: 59%;
+    width: 71%;
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -129,7 +149,7 @@ nav .menu li a {
 .skills-info .skills-card {
     padding: 30px;
     max-width: 267px;
-    box-shadow: 0 6px 50px 0 rgb(0 0 0 / 40%);
+    box-shadow: 0 6px 50px 0 rgb(0 0 0 / 50%);
 }
 .skills-card img {
     max-width: 44px;
@@ -178,5 +198,43 @@ nav .menu li a {
 .resume-card .card-text {
     font-size: 16px;
     line-height: 28px;
+    color: #757575;
+}
+footer {
+    margin-top: 130px;
+    background-color: #fff8f3;
+    padding: 130px 0;
+}
+footer .footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container h2 {
+    color: #181818;
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container p {
+    color: #474747;
+    line-height: 28px;
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a {
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
     color: #757575;
 }
